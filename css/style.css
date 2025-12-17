@@ -1,3 +1,19 @@
+
+ :root{
+ --background-primary-color: #FFFFFF;
+ --background-secondary-color: #F5F5F5;
+ --background-tartiary-color: #000000;
+ 
+ --button-primary-color: #8F0101;
+ --button-secondary-color: #B81515;
+
+ --text-primary-color: #222222;
+ --text-secondary-color: #FFFFFF;   
+ 
+    
+ }
+ 
+
 /* CSS Reset */
 * {
     margin: 0;
@@ -5,5 +21,9 @@
     box-sizing: border-box;
  }   
 
-
- 
+h1 {
+    color: var(--button-secondary-color);
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 20px;
+}
