@@ -30,9 +30,6 @@
   box-sizing: border-box;
 }
 
-h1 {
-  color: var(--button-secondary-color);
-  font-size: 2.5rem;
-  text-align: center;
-  margin-top: 20px;
+header {
+  background-color: var(--background-tartiary-color);
 }
