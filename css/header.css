@@ -20,6 +20,11 @@ header {
   display: block;
 }
 
+.logo__desk{
+    display: none;
+
+}
+
 /* CONTAINER DO MENU */
 .navigation-menu {
   position: relative;
@@ -117,5 +122,17 @@ header {
   .imagembanner{
     width: 50%;
     height: 620px;
+  }
+}
+
+
+
+@media screen and (min-width: 1024px) {
+    header {
+    padding: 38px 20px;
+  }
+  
+    .logo img {
+    width: 180px; /* ajuste conforme o layout */
   }
 }
