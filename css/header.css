@@ -1,12 +1,80 @@
-header{  
-    width: 100%;
-    height: 138px;
- background-color:var(--background-tertiary-color);
+header {
+  background-color: var(--background-tertiary-color);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;     
+
+  padding: 38px 48px;
 }
 
-.logo{
-display: inline-block;
- width: 68px;
-height: 64px;
-margin: 37px 0  0 48px ;
+/* LOGO */
+.logo {
+  display: flex;                    
+  align-items: center;
+}
+
+.logo img {
+  width: 68px;
+  height: 64px;
+  display: block;
+}
+
+/* CONTAINER DO MENU */
+.navigation-menu {
+  position: relative;
+  display: flex;                  
+  align-items: center;
+}
+
+/* ÍCONE DO MENU */
+.btn-menu {
+  cursor: pointer;
+
+  display: block;
+}
+
+/* MENU FECHADO */
+.nav {
+  position: absolute;
+  top: calc(100% + 12px);            /* 🔥 fica abaixo do header */
+  right: 0;
+
+  background-color: var(--background-tertiary-color);
+  width: 220px;
+
+  display: none;
+}
+
+/* MENU ABERTO */
+.nav.active {
+  display: block;
+}
+
+/* LISTA */
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  border-bottom: 1px solid #333;
+}
+
+.nav a {
+  display: block;
+  padding: 1rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background-color: #1a1d24;
+}
+
+/* BANNER */
+.imagembanner {
+  width: 100%;
+  display: block;
 }
