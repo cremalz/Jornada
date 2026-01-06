@@ -42,7 +42,7 @@ header {
 /* MENU FECHADO */
 .nav {
   position: absolute;
-  top: calc(100% + 12px);            /* 🔥 fica abaixo do header */
+  top: calc(100% + 12px);         
   right: 0;
 
   background-color: var(--background-tertiary-color);
@@ -78,11 +78,7 @@ header {
   background-color: #1a1d24;
 }
 
-/* BANNER */
-.imagembanner {
-  width: 100%;
-  display: block;
-}
+
 
 
 
@@ -119,11 +115,7 @@ header {
     text-decoration: underline;
   }
     
-  .imagembanner{
-    width: 50%;
-    height: 620px;
-  }
-}
+
 
 
 
@@ -133,6 +125,7 @@ header {
   }
   
     .logo img {
-    width: 180px; /* ajuste conforme o layout */
+    width: 180px; 
   }
+}
 }
