@@ -20,6 +20,7 @@ background-color: transparent;
 .card header{
 display: block;
 position: static;
+  white-space: nowrap;
 background-color: transparent;
 padding: 0;
 margin-bottom: 24px;
@@ -38,7 +39,7 @@ margin: 8px 0 0;
 .card header span{
     font-size: 32px;
 margin-top: 24px;
-display: inline-block;
+display: block;
 
 }
 
@@ -65,11 +66,19 @@ background-size: cover;
 }
 
 
+@media screen and (min-width: 768px){
+
+    .offers-cards{
+     flex-direction: row;
+    }
+}
+
+
 
 
 @media screen and (min-width: 1024px) {
     .card {
-        width: 588px;
+        width: 420px;
         height: 308px;
     
     }
