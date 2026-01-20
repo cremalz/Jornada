@@ -71,6 +71,10 @@ background-size: cover;
     .offers-cards{
      flex-direction: row;
     }
+
+      .card header span{
+        display: inline-block;
+      }
 }
 
 
@@ -90,8 +94,8 @@ background-size: cover;
     }
 
     .card header span {
-        font-size: 40px;
+        font-size: 40px;  
         margin-top: 24px;
-        display: inline-block;
+        display:block;
     }
 }
