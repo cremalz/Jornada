@@ -6,7 +6,7 @@
 }
 
 
-.card{
+.offers-cards .card{
     color: var(--text-secondary-color);
 padding: 24px 16px;
     width: 312px;
@@ -17,7 +17,7 @@ text-align: center;
 background-color: transparent;
 }
 
-.card header{
+.offers-cards .card header{
 display: block;
 position: static;
   white-space: nowrap;
@@ -26,17 +26,17 @@ padding: 0;
 margin-bottom: 24px;
 }
 
-.card header p{
+.offers-cards .card header p{
 font-size: 20px;
 font-weight: var(--text-weight);
 }
 
-.card header h3{
+.offers-cards .card header h3{
     font-size: 40px;
 font-weight: var(--title-weight);
 margin: 8px 0 0;
 }
-.card header span{
+.offers-cards .card header span{
     font-size: 32px;
 margin-top: 24px;
 display: block;
