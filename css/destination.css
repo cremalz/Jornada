@@ -80,13 +80,21 @@ margin-bottom: 24px;
 
 @media screen and (min-width: 700px){
 
+    .destinations{
+    width: 648px;
+   margin: 0 auto;
+}
+
+
+
+
     .img-item-tokyo{
     background-image: url("../img/tokyo-desk.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 648px;
     height: 452px;
-      margin: 0 auto 
+   
 
   
 }
@@ -97,8 +105,9 @@ margin-bottom: 24px;
     background-size: cover;
     width: 648px;
     height: 452px;
-  margin: 0 auto 
+
 }
+
 
 
     
