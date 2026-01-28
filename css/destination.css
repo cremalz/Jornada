@@ -118,5 +118,52 @@ margin-bottom: 24px;
 
 @media screen and (min-width: 1024px) {
 
+  .destinations{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
 
+  .destinations-items{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 32px;
+    row-gap: 24px;
+  }
+
+  /* remove o "card vertical" */
+  .destinations .item{
+    display: contents;
+  }
+
+  /* IMAGENS – linha 1 */
+  .destinations .item header{
+    grid-row: 1;
+  }
+
+  /* TEXTO – linha 2 */
+  .destinations .item p{
+    grid-row: 2;
+  }
+
+  /* BOTÃO – linha 3 */
+  .destinations .item footer{
+    grid-row: 3;
+  }
+
+  /* imagens responsivas */
+  .img-item-tokyo,
+  .img-item-osaka{
+    width: 100%;
+    height: 420px;
+    max-width: 100%;
+  }
+
+  .destinations .item p{
+    max-width: 560px;
+  }
+
+  .destinations .item footer{
+    margin-top: 8px;
+  }
 }
