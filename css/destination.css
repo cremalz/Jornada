@@ -53,8 +53,6 @@ margin-bottom: 24px;
 
 
 .destinations .item h4{
-    font-size: 28px;
-    font-weight: var(--title-weight);
     margin: 0;
 }
 
@@ -80,13 +78,18 @@ margin-bottom: 24px;
 
 @media screen and (min-width: 700px){
 
-    .destinations{
-    width: 648px;
-   margin: 0 auto;
+.destinations .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-
-
+.destinations .item p,
+.destinations .item h4,
+.destinations .item footer {
+  width: 648px;
+  text-align: center;
+}
 
     .img-item-tokyo{
     background-image: url("../img/tokyo-desk.jpg");
@@ -94,8 +97,7 @@ margin-bottom: 24px;
     background-size: cover;
     width: 648px;
     height: 452px;
-   
-
+  
   
 }
 
