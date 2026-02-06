@@ -24,7 +24,6 @@
   --menu-text-weight: 500;
 }
 
-
 body {
   margin: 0;
   padding: 0;
@@ -32,18 +31,15 @@ body {
   font-family: var(--font-style);
 }
 
-
 section {
   max-width: 312px;
   margin: 0 auto;
 }
 
-
 section.hero {
   max-width: 100%;
   margin: 0;
 }
-
 
 .section-title h2 {
   font-family: var(--font-style); /* corrigido */
@@ -66,15 +62,15 @@ section.hero {
   border: none;
 }
 
-.content-title{
-    font-size: 28px;
-    font-weight: var(--title-weight);
+.content-title {
+  font-size: 28px;
+  font-weight: var(--title-weight);
 }
 
-.content-text{
-font-weight: var(--text-weight);
-    font-size: 20px;
-    line-height: 32px;
+.content-text {
+  font-weight: var(--text-weight);
+  font-size: 20px;
+  line-height: 32px;
 }
 
 .button {
@@ -90,8 +86,6 @@ font-weight: var(--text-weight);
   text-decoration: none;
   line-height: 64px;
 }
-
-
 
 .hero-img {
   width: 100%;
@@ -109,7 +103,6 @@ font-weight: var(--text-weight);
   text-align: center;
   line-height: 1.5;
 }
-
 
 @media screen and (min-width: 768px) {
   section {
@@ -131,7 +124,6 @@ font-weight: var(--text-weight);
   }
 }
 
-
 @media screen and (min-width: 1024px) {
   .hero-img {
     background-image: url("../img/hero-desktop.jpg");
@@ -141,7 +133,6 @@ font-weight: var(--text-weight);
     padding: 88px 160px;
   }
 }
-
 
 @media screen and (min-width: 1440px) {
   section {

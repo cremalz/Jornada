@@ -1,58 +1,48 @@
 .payments .img-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 200px 200px;
-    gap: 24px;
-    margin-top: 24px;
-    width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 200px 200px;
+  gap: 24px;
+  margin-top: 24px;
+  width: 100%;
 }
 
 .payments .img-content div {
-    background-size: cover;
-    background-position: center;
+  background-size: cover;
+  background-position: center;
 }
 
 .img_bag {
-    background-image: url("../img/bag.png");
+  background-image: url("../img/bag.png");
 }
 
 .img_passport {
-    background-image: url("../img/passaport.png");
+  background-image: url("../img/passaport.png");
 }
 
 .img_people {
-    background-image: url("../img/gate.png");
+  background-image: url("../img/gate.png");
 }
 
 .colspan-2 {
-    grid-column: span 2;
+  grid-column: span 2;
 }
-
-
-
-
-
-
 
 @media screen and (min-width: 768px) {
-
-.img_bag {
+  .img_bag {
     background-image: url("../img/bag-tab.png");
-}
+  }
 
-.img_passport {
+  .img_passport {
     background-image: url("../img/passaport-tab.png");
-}
+  }
 
-.img_people {
+  .img_people {
     background-image: url("../img/gate-tab.png");
+  }
 }
 
-
-}
-
-@media screen and (min-width: 1440px){
-
+@media screen and (min-width: 1440px) {
   .payments {
     display: flex;
     flex-direction: column;
@@ -77,5 +67,4 @@
     width: 760px;
     margin-top: 0; /* remove o espaçamento extra */
   }
-
 }

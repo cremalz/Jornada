@@ -24,29 +24,28 @@
 }
 
 .categories-cards .card img {
-   margin: 10px 0 20px;}
-
-
+  margin: 10px 0 20px;
+}
 
 @media screen and (min-width: 768px) {
-    .categories-cards {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .categories .section-title {
+  .categories-cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .categories .section-title {
     width: 100%;
-}
+  }
 }
 
 @media screen and (min-width: 1024px) {
-    .categories-cards .card {
-        width: 312px;
-    }
+  .categories-cards .card {
+    width: 312px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
-    .categories-cards .card {
-        width: 280px;
-    }
+  .categories-cards .card {
+    width: 280px;
+  }
 }
