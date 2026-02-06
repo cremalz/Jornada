@@ -91,11 +91,9 @@
 }
 
 @media screen and (min-width: 1440px) {
-
-.offers-cards .card {
-  color: var(--text-secondary-color);
-  width: 588px;
-  height: 308px;
-}
-
+  .offers-cards .card {
+    color: var(--text-secondary-color);
+    width: 588px;
+    height: 308px;
+  }
 }
