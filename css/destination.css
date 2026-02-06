@@ -129,43 +129,25 @@ margin-bottom: 24px;
   .destinations-items{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 32px;
-    row-gap: 24px;
+    gap: 32px;
   }
 
-  /* remove o "card vertical" */
   .destinations .item{
-    display: contents;
+    display: flex;
+    flex-direction: column;
   }
 
-  /* IMAGENS – linha 1 */
-  .destinations .item header{
-    grid-row: 1;
-  }
-
-  /* TEXTO – linha 2 */
-  .destinations .item p{
-    grid-row: 2;
-  }
-
-  /* BOTÃO – linha 3 */
-  .destinations .item footer{
-    grid-row: 3;
-  }
-
-  /* imagens responsivas */
   .img-item-tokyo,
   .img-item-osaka{
-    width: 100%;
-    height: 420px;
-    max-width: 100%;
+    width: 588px;
+    height: 452px;
   }
 
-  .destinations .item p{
+  .destinations .item p,
+  .destinations .item h4,
+  .destinations .item footer{
+    width: 100%;
     max-width: 560px;
   }
 
-  .destinations .item footer{
-    margin-top: 8px;
-  }
 }
