@@ -15,6 +15,17 @@
   line-height: 1.5;
 }
 
+.hero2-img{
+  height: 400px;
+  margin-top: 88px;
+  width: 100%;
+  background-image: url(../img/hero2-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
 @media screen and (min-width: 768px) {
   .hero-img {
     height: 620px;
@@ -25,7 +36,19 @@
     padding: 88px 120px;
     font-size: 32px;
   }
+ 
+  .hero2-img {
+    height: 620px;
+    background-image: url(../img/hero2-tablet.png);
+    background-size: cover;
+  }
+
+
 }
+
+
+
+
 
 @media screen and (min-width: 1024px) {
   .hero-img {
@@ -37,4 +60,12 @@
   .hero h2 {
     padding: 88px 160px;
   }
+
+  .hero2-img {
+    height: 620px;
+    background-image: url(../img/hero2-desktop.png);
+    background-size: cover;
+  }
+
+
 }
