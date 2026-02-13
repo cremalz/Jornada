@@ -2,7 +2,6 @@
   width: 312px;
   margin: 0 auto;
 }
-
 .destinations .item header {
   display: block;
   position: static;
@@ -11,20 +10,17 @@
   padding: 0;
   margin-bottom: 24px;
 }
-
 .destinations-items {
   margin: 0 24px;
   display: flex;
   flex-direction: column;
   gap: 24px;
 }
-
 .destinations .item header {
   display: flex;
   flex-direction: column;
   gap: 24px;
 }
-
 .img-item-tokyo {
   background-image: url("../img/tokyo-moobile.jpg");
   background-repeat: no-repeat;
@@ -32,17 +28,12 @@
   width: 312px;
   height: 360px;
 }
-
 .img-item-osaka {
   background-image: url("../img/osaka-mobile.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 312px;
   height: 360px;
-}
-
-.destinations .item h4 {
-  margin: 0;
 }
 
 .button-2 {
@@ -56,23 +47,29 @@
   display: flex;
   align-items: center; /* centraliza vertical */
   justify-content: center; /* centraliza horizontal */
-
   text-decoration: none;
+} /* DESTINATIONS BLOG */
+.img-item-chegada {
+  background-image: url("../img/blog-chegada-mobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 312px;
+  height: 360px;
 }
-
 @media screen and (min-width: 700px) {
   .destinations .item {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-
   .destinations .item p,
   .destinations .item h4,
   .destinations .item footer {
     width: 648px;
     text-align: center;
   }
+
+
 
   .img-item-tokyo {
     background-image: url("../img/tokyo-desk.jpg");
@@ -81,7 +78,6 @@
     width: 648px;
     height: 452px;
   }
-
   .img-item-osaka {
     background-image: url("../img/osaka-desk.jpg");
     background-repeat: no-repeat;
@@ -89,32 +85,34 @@
     width: 648px;
     height: 452px;
   }
-}
 
+  .img-item-chegada{
+
+  }
+
+
+
+}
 @media screen and (min-width: 1440px) {
   .destinations {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
   }
-
   .destinations-items {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 32px;
   }
-
   .destinations .item {
     display: flex;
     flex-direction: column;
   }
-
   .img-item-tokyo,
   .img-item-osaka {
     width: 588px;
     height: 452px;
   }
-
   .destinations .item p,
   .destinations .item h4,
   .destinations .item footer {
