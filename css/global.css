@@ -63,6 +63,8 @@ section.hero {
 }
 
 .content-title {
+  display: flex;
+  align-self: start;
   font-size: 28px;
   font-weight: var(--title-weight);
 }
