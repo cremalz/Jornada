@@ -69,18 +69,18 @@
     align-items: center;
   }
 
-  .destinations .item p,
-  .destinations .item h4,
-  .destinations .item footer 
-  .content-textblog{
-    width: 312px;
+  .destinations .item > p,
+  .destinations .item > h4,
+  .destinations .item > footer{
+    width: 648px;
     text-align: center
   }
 
-  .content-textblog p{
-    width:  312x;
-    text-align: center
-  }
+.chegada-alignment p,
+.chegada-alignment h4 {
+  width: 312px;
+  text-align: center;
+}
 
   .img-item-tokyo,
   .img-item-osaka {
