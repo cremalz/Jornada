@@ -21,7 +21,8 @@
   flex-direction: column;
   gap: 24px;
 }
-.img-item-tokyo {
+.img-item-tokyo,
+.blogimg-item-tokyo {
   background-image: url("../img/tokyo-moobile.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -83,7 +84,8 @@
 }
 
   .img-item-tokyo,
-  .img-item-osaka {
+  .img-item-osaka, 
+  .blogimg-item-tokyo{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -91,7 +93,11 @@
     height: 452px;
   }
 
-  .img-item-tokyo {
+  .img-item-tokyo{
+    background-image: url("../img/tokyo-desk.jpg");
+  }
+
+  .blogimg-item-tokyo{
     background-image: url("../img/tokyo-desk.jpg");
   }
 
