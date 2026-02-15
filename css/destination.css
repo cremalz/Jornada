@@ -71,13 +71,14 @@
 
   .destinations .item p,
   .destinations .item h4,
-  .destinations .item footer {
-  width: 312px;
+  .destinations .item footer 
+  .content-textblog{
+    width: 312px;
     text-align: center
   }
 
-  .content-textblog{
-    width: 648px;
+  .content-textblog p{
+    width:  312x;
     text-align: center
   }
 
@@ -107,16 +108,21 @@
     grid-template-areas:
       "title img"
       "text  img";
-    gap: 32px;
+    column-gap: 24px;
+  row-gap: 2px;
     align-items: start;
   }
 
   .chegada-alignment h4 {
     grid-area: title;
+    justify-self: center;
   }
 
   .chegada-alignment p {
     grid-area: text;
+    text-align: center;
+    margin-top: 0;
+    
   }
 
   .chegada-alignment .img-item-chegada {
