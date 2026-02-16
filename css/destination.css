@@ -167,4 +167,24 @@
     width: 100%;
     max-width: 560px;
   }
+
+  .blogimg-item-tokyo{
+    background-image: url("../img/Tokyo-desk2.png");
+    width: 1200px;
+    height: 452px;
+  }
+  .img-item-chegada {
+  background-image: url("../img/blog-chegada-desk.png");
+      width: 588px;
+    height: 452px;
+}
+
+    .destinations .item p,
+  .destinations .item h4,
+  .destinations .item footer {
+    width: 100%;
+    max-width: 1200px;
+  }
+
+
 }
