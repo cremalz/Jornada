@@ -21,7 +21,8 @@
   flex-direction: column;
   gap: 24px;
 }
-.img-item-tokyo {
+.img-item-tokyo,
+.blogimg-item-tokyo {
   background-image: url("../img/tokyo-moobile.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -69,21 +70,22 @@
     align-items: center;
   }
 
-  .destinations .item p,
-  .destinations .item h4,
-  .destinations .item footer 
-  .content-textblog{
-    width: 312px;
+  .destinations .item > p,
+  .destinations .item > h4,
+  .destinations .item > footer{
+    width: 648px;
     text-align: center
   }
 
-  .content-textblog p{
-    width:  312x;
-    text-align: center
-  }
+.chegada-alignment p,
+.chegada-alignment h4 {
+  width: 312px;
+  text-align: center;
+}
 
   .img-item-tokyo,
-  .img-item-osaka {
+  .img-item-osaka, 
+  .blogimg-item-tokyo{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -91,7 +93,11 @@
     height: 452px;
   }
 
-  .img-item-tokyo {
+  .img-item-tokyo{
+    background-image: url("../img/tokyo-desk.jpg");
+  }
+
+  .blogimg-item-tokyo{
     background-image: url("../img/tokyo-desk.jpg");
   }
 
@@ -161,4 +167,24 @@
     width: 100%;
     max-width: 560px;
   }
+
+  .blogimg-item-tokyo{
+    background-image: url("../img/Tokyo-desk2.png");
+    width: 1200px;
+    height: 452px;
+  }
+  .img-item-chegada {
+  background-image: url("../img/blog-chegada-desk.png");
+      width: 588px;
+    height: 452px;
+}
+
+    .destinations .item p,
+  .destinations .item h4,
+  .destinations .item footer {
+    width: 100%;
+    max-width: 1200px;
+  }
+
+
 }
