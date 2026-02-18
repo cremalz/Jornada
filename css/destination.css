@@ -1,4 +1,4 @@
-.destinations {
+.destinations, .blogdestinations {
   width: 312px;
   margin: 0 auto;
 }
@@ -31,6 +31,22 @@
 }
 .img-item-osaka {
   background-image: url("../img/osaka-mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 312px;
+  height: 360px;
+}
+
+.img-item-hiroshima{
+  background-image: url("../img/hiroshima-mobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 312px;
+  height: 360px;
+}
+
+.img-item-kyoto{
+  background-image: url("../img/kyoto-mobile.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 312px;
@@ -72,7 +88,10 @@
 
   .destinations .item > p,
   .destinations .item > h4,
-  .destinations .item > footer{
+  .destinations .item > footer
+  .blogdestinations .item > p,
+  .blogdestinations .item > h4,
+  .blogdestinations .item > footer {
     width: 648px;
     text-align: center
   }
@@ -85,13 +104,24 @@
 
   .img-item-tokyo,
   .img-item-osaka, 
-  .blogimg-item-tokyo{
+  .blogimg-item-tokyo,
+  .img-item-hiroshima,
+  .img-item-kyoto {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 648px;
     height: 452px;
   }
+
+  .img-item-hiroshima{
+  background-image: url("../img/hiroshima-mobile.png");
+}
+
+.img-item-kyoto{
+  background-image: url("../img/kyoto-mobile.png");
+}
+
 
   .img-item-tokyo{
     background-image: url("../img/tokyo-desk.jpg");
@@ -142,7 +172,7 @@
 
 
 @media screen and (min-width: 1440px) {
-  .destinations {
+  .destinations, .blogdestinations{
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
@@ -186,5 +216,31 @@
     max-width: 1200px;
   }
 
+
+    .destinations .item {
+    display: flex;
+    flex-direction: column;
+  }
+  .img-item-tokyo,
+  .img-item-osaka,
+  .img-item-hiroshima,
+  .img-item-kyoto
+  {
+    width: 384px;
+    height: 300px;
+  }
+
+    .blogdestinations .item p,
+  .blogdestinations .item h4,
+  .blogdestinations .item footer {
+    width: 100%;
+    max-width: 384px;
+  }
+
+    .destinations-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px;
+  }
 
 }
