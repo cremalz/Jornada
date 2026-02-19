@@ -84,6 +84,40 @@ section .hero-img {
     line-height: 32px;
 }
 
+
+/* HERO Pacotes de viagem */
+
+.pacote-hero {
+ position: relative;
+  width: 100%;
+  max-width: 100%;   
+  margin: 0;    
+}
+
+.pacote-hero .pacotehero-img {
+  height: 400px;
+  width: 100%;
+  background: url("../img/vulcao-mobile.png") no-repeat center;
+  background-size: cover;
+}
+
+section .pacotehero-img {
+  max-width: 100%;
+  margin: 0;
+}
+
+.pacote-hero .hero-content {
+  position: absolute;
+  top: 50%;
+  left: 24px;
+  right: 24px;
+  transform: translateY(-50%);
+  font-family: var();
+  color: var(--text-secondary-color);
+  font-weight: var(--title-weight);
+}
+
+
 @media screen and (min-width: 768px) {
  
  
@@ -125,6 +159,22 @@ section .hero-img {
     }
 
 
+  /* HERO pacotes de viagem */
+
+.pacote-hero .pacotehero-img {
+  height: 620px;
+  background: url("../img/vulcao-tablet.png") ;
+  background-size: cover;
+}
+
+    .pacote-hero .hero-content {
+        margin-right: 200px;
+    }
+
+
+
+
+
 }
 
 
@@ -162,6 +212,20 @@ section .hero-img {
         width: 1200px;
     }
 
+
+  /* HERO pacotes de viagem */
+
+.pacote-hero .pacotehero-img {
+  height: 620px;
+  background: url("../img/vulcao-desktop.png") ;
+  background-size: cover;
+}
+
+    .pacote-hero .hero-content {
+        width: 700px;
+    }
+
+  
 
 }
 
