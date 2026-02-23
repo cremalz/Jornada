@@ -24,6 +24,20 @@
   background-image: url("../img/gate.png");
 }
 
+.img_temple {
+  background-image: url("../img/temple.mobile.png");
+}
+
+.img_lights {
+  background-image: url("../img/light.mobile.png");
+}
+
+.img_asianpeople {
+  background-image: url("../img/asianpeople.mobile.png");
+   grid-column: span 2;
+}
+
+
 .colspan-2 {
   grid-column: span 2;
 }
@@ -40,6 +54,20 @@
   .img_people {
     background-image: url("../img/gate-tab.png");
   }
+
+  .img_temple {
+  background-image: url("../img/temple.tab.png");
+}
+
+.img_lights {
+  background-image: url("../img/light.tab.png");
+}
+
+.img_asianpeople {
+  background-image: url("../img/asianpeople.tab.png");
+   grid-column: span 2;
+}
+
 }
 
 @media screen and (min-width: 1440px) {
