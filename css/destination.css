@@ -119,13 +119,19 @@
     background-image: url("../img/tokyo-desk.jpg");
   }
   .img-item-osaka {
-    background-image: url("../img/osaka-desk.jpg");
+    background-image: url("../img/osaka-tab.jpg");
+        width: 648px;
+    height: 452px;
   }
   .img-item-osaka {
-    background-image: url("../img/osaka-desk.jpg");
+    background-image: url("../img/osaka-tab.jpg");
+            width: 648px;
+    height: 452px;
   }
   .blogimg-item-osaka {
     background-image: url("../img/osaka-desk.jpg");
+            width: 648px;
+    height: 452px;
   } /* ===== DESTINATIONS BLOG ===== */
   .chegada-alignment {
     display: grid;
