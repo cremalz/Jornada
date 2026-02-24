@@ -21,7 +21,7 @@
 }
 
 /* HERO footer  first page*/
-.hero2-img {
+.herofoot-img {
   height: 400px;
   margin-top: 88px;
   width: 100%;
@@ -30,10 +30,9 @@
   background-size: cover;
 }
 
-section.hero2 {
-  max-width: 100%;
-  margin: 0;
-}
+
+
+
 
 
 /* HERO BLOG */
@@ -117,6 +116,25 @@ section .pacotehero-img {
   font-weight: var(--title-weight);
 }
 
+.herofoot {
+ position: relative;
+  width: 100%;
+  max-width: 100%;   
+  margin: 0;    
+}
+
+.herofoot .herofoot2-img {
+  height: 400px;
+  width: 100%;
+  background: url("../img/hero3.mobile.png") no-repeat center;
+  background-size: cover;
+}
+
+section .herofoot2-img {
+  max-width: 100%;
+  margin: 0;
+}
+
 
 @media screen and (min-width: 768px) {
  
@@ -170,6 +188,20 @@ section .pacotehero-img {
     .pacote-hero .hero-content {
         margin-right: 200px;
     }
+.herofoot {
+ position: relative;
+  width: 100%;
+  max-width: 100%;   
+  margin: 0;    
+}
+
+.herofoot .herofoot2-img {
+  height: 400px;
+  width: 100%;
+  background: url("../img/hero3.tab.png") no-repeat center;
+  background-size: cover;
+}
+
 
 
 
@@ -225,6 +257,11 @@ section .pacotehero-img {
         width: 700px;
     }
 
+    .herofoot .herofoot2-img {
+  height: 620px;
+  background: url("../img/hero3.desk.png") no-repeat center;
+  background-size: cover;
+}
   
 
 }
