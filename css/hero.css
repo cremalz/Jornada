@@ -21,6 +21,13 @@
 }
 
 /* HERO footer  first page*/
+.herofoot {
+ position: relative;
+  width: 100%;
+  max-width: 100%;   
+  margin: 0;    
+}
+
 .herofoot-img {
   height: 400px;
   margin-top: 88px;
@@ -157,7 +164,7 @@ section .herofoot2-img {
     font-size: 32px;
   }
  
-  .hero2-img {
+  .herofoot-img {
     height: 620px;
     background-image: url(../img/hero2-tablet.png);
     background-size: cover;
@@ -226,7 +233,7 @@ section .herofoot2-img {
     padding: 88px 160px;
   }
 
-  .hero2-img {
+  .herofoot-img {
     height: 620px;
     background-image: url(../img/hero2-desktop.png);
     background-size: cover;
