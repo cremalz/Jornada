@@ -1,31 +1,51 @@
+/* ================= HERO CONTATO ================= */
 
-
-
-
-.hero-img {
+.contato-hero .contatohero-img {
   height: 400px;
   width: 100%;
-  background-image: url(../img/hero-mobile.jpg);
-  background-repeat: no-repeat;
+  background: url("../img/contato-mobile.png") no-repeat center;
   background-size: cover;
 }
 
-
-.hero p {
-  padding: 88px 24px;
-  margin: 0;
-  font-weight: var(--text-weight);
-  font-size: 20px;
-  text-align: center;
-  line-height: 1.5;
+.contato-hero .hero-content {
+  position: absolute;
+  top: 50%;
+  left: 24px;
+  right: 24px;
+  transform: translateY(-50%);
+  color: var(--text-secondary-color);
 }
 
-/* HERO footer  first page*/
-.herofoot {
- position: relative;
+/* PADRÃO DE TEXTO */
+
+.contato-hero .hero-content h1 {
+  font-weight: var(--title-weight);
+}
+
+.contato-hero .hero-content hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--button-secondary-color);
+  margin: 16px 0 32px;
+}
+
+.contato-hero .hero-content p {
+  font-size: 20px;
+  color: var(--text-secondary-color);
+  font-weight: var(--text-weight);
+  line-height: 32px;
+}
+
+/* ================= HERO FOOTER ================= */
+
+.herofoot,
+.blog-hero,
+.pacote-hero,
+.contato-hero {
+  position: relative;
   width: 100%;
-  max-width: 100%;   
-  margin: 0;    
+  max-width: 100%;
+  margin: 0;
 }
 
 .herofoot-img {
@@ -37,19 +57,7 @@
   background-size: cover;
 }
 
-
-
-
-
-
-/* HERO BLOG */
-
-.blog-hero {
- position: relative;
-  width: 100%;
-  max-width: 100%;   
-  margin: 0;    
-}
+/* ================= HERO BLOG ================= */
 
 .blog-hero .hero-img {
   height: 400px;
@@ -58,7 +66,9 @@
   background-size: cover;
 }
 
-section .hero-img {
+section .hero-img,
+section .pacotehero-img,
+section .herofoot2-img {
   max-width: 100%;
   margin: 0;
 }
@@ -74,42 +84,28 @@ section .hero-img {
   font-weight: var(--title-weight);
 }
 
-
 .blog-hero .hero-content hr {
-    width: 180px;
-    height: 4px;
-    background-color: var(--button-secondary-color); 
-    margin: 16px 0 32px;
-    margin: 16px 20px;
+  width: 180px;
+  height: 4px;
+  background-color: var(--button-secondary-color);
+  margin: 16px 0 32px;
+  margin: 16px 20px;
 }
 
 .blog-hero .hero-content p {
-    font-size: 20px;
-    color: var(--text-secondary-color);
-    font-weight: var(--text-weight);
-    line-height: 32px;
+  font-size: 20px;
+  color: var(--text-secondary-color);
+  font-weight: var(--text-weight);
+  line-height: 32px;
 }
 
-
-/* HERO Pacotes de viagem */
-
-.pacote-hero {
- position: relative;
-  width: 100%;
-  max-width: 100%;   
-  margin: 0;    
-}
+/* ================= HERO PACOTE ================= */
 
 .pacote-hero .pacotehero-img {
   height: 400px;
   width: 100%;
   background: url("../img/vulcao-mobile.png") no-repeat center;
   background-size: cover;
-}
-
-section .pacotehero-img {
-  max-width: 100%;
-  margin: 0;
 }
 
 .pacote-hero .hero-content {
@@ -123,12 +119,31 @@ section .pacotehero-img {
   font-weight: var(--title-weight);
 }
 
-.herofoot {
- position: relative;
+
+/* ================= HERO contato ================= */
+
+.contato-hero .contatohero-img {
+  height: 400px;
   width: 100%;
-  max-width: 100%;   
-  margin: 0;    
+  background: url("../img/contato-mobile.png") no-repeat center;
+  background-size: cover;
 }
+
+.contato-hero .hero-content {
+  position: absolute;
+  top: 50%;
+  left: 24px;
+  right: 24px;
+  transform: translateY(-50%);
+  font-family: var();
+  color: var(--text-secondary-color);
+  font-weight: var(--title-weight);
+}
+
+
+
+
+/* ================= HERO FOOTER EXTRA ================= */
 
 .herofoot .herofoot2-img {
   height: 400px;
@@ -137,97 +152,108 @@ section .pacotehero-img {
   background-size: cover;
 }
 
-section .herofoot2-img {
-  max-width: 100%;
-  margin: 0;
+.herofoot .herofoot3-img {
+  height: 400px;
+  width: 100%;
+  background: url("../img/contato-footermobile.png") no-repeat center;
+  background-size: cover;
 }
 
 
+
+
+
+
+/* ================= MEDIA 768px ================= */
+
 @media screen and (min-width: 768px) {
- 
- 
- 
+
   .hero-img {
     height: 620px;
-     width: 100%;
+    width: 100%;
     background-image: url(../img/hero-tablet.jpg);
     background-size: cover;
   }
 
-   .hero-content{
+  .hero-content {
     margin-right: 200px;
-   }
-
+  }
 
   .hero h2 {
     padding: 88px 120px;
     font-size: 32px;
   }
- 
+
   .herofoot-img {
     height: 620px;
     background-image: url(../img/hero2-tablet.png);
     background-size: cover;
   }
 
+  .blog-hero .hero-img {
+    height: 620px;
+    background: url("../img/blog-hero-tablet.png");
+    background-size: cover;
+  }
 
-  /* HERO BLOG */
+  .travel-packages .hero-content {
+    margin: right 200px;
+  }
 
-.blog-hero .hero-img {
-  height: 620px;
-  background: url("../img/blog-hero-tablet.png") ;
-  background-size: cover;
+  .pacote-hero .pacotehero-img {
+    height: 620px;
+    background: url("../img/vulcao-tablet.png");
+    background-size: cover;
+  }
+
+  .pacote-hero .hero-content {
+    margin-right: 200px;
+  }
+
+  .herofoot .herofoot2-img {
+    height: 400px;
+    width: 100%;
+    background: url("../img/hero3.tab.png") no-repeat center;
+    background-size: cover;
+  }
+
+
+
+  .contato-hero .contatohero-img{
+    height: 620px;
+    background: url("../img/contato-tablet.png");
+    background-size: cover;
+  }
+
+  .pacote-hero .hero-content {
+    margin-right: 200px;
+  }
+
+  .herofoot .herofoot3-img {
+    height: 400px;
+    width: 100%;
+    background: url("../img/contato-footertab.png") no-repeat center;
+    background-size: cover;
+  }
+
+
+
+
 }
 
-    .travel-packages .hero-content {
-        margin: right 200px; ;
-    }
-
-
-  /* HERO pacotes de viagem */
-
-.pacote-hero .pacotehero-img {
-  height: 620px;
-  background: url("../img/vulcao-tablet.png") ;
-  background-size: cover;
-}
-
-    .pacote-hero .hero-content {
-        margin-right: 200px;
-    }
-.herofoot {
- position: relative;
-  width: 100%;
-  max-width: 100%;   
-  margin: 0;    
-}
-
-.herofoot .herofoot2-img {
-  height: 400px;
-  width: 100%;
-  background: url("../img/hero3.tab.png") no-repeat center;
-  background-size: cover;
-}
-
-
-
-
-
-
-}
-
-
+/* ================= MEDIA 1024px ================= */
 
 @media screen and (min-width: 1024px) {
+
   .hero-img {
     height: 620px;
     background-image: url(../img/hero-desktop.jpg);
     background-size: cover;
   }
 
-     .hero-content{
+  .hero-content {
     margin-right: 400px;
-   }
+  }
 
   .hero h2 {
     padding: 88px 160px;
@@ -239,47 +265,59 @@ section .herofoot2-img {
     background-size: cover;
   }
 
-    /* HERO BLOG */
+  .blog-hero .hero-img {
+    height: 620px;
+    background: url("../img/blog-hero-desk.png");
+    background-size: cover;
+  }
 
-.blog-hero .hero-img {
-  height: 620px;
-  background: url("../img/blog-hero-desk.png") ;
-  background-size: cover;
+  .travel-packages .hero-content {
+    width: 1200px;
+  }
+
+  .pacote-hero .pacotehero-img {
+    height: 620px;
+    background: url("../img/vulcao-desktop.png");
+    background-size: cover;
+  }
+
+  .pacote-hero .hero-content {
+    width: 700px;
+  }
+
+  .herofoot .herofoot2-img {
+    height: 620px;
+    background: url("../img/hero3.desk.png") no-repeat center;
+    background-size: cover;
+  }
+
+
+
+  .contato-hero .contatohero-img {
+    height: 620px;
+    background: url("../img/contato-desktop.png");
+    background-size: cover;
+  }
+
+  .pacote-hero .hero-content {
+    width: 700px;
+  }
+
+  .herofoot .herofoot3-img {
+    height: 620px;
+    background: url("../img/contato-footerdesktop.png") no-repeat center;
+    background-size: cover;
+  }
+
+
+
+
 }
 
-    .travel-packages .hero-content {
-        width: 1200px;
-    }
-
-
-  /* HERO pacotes de viagem */
-
-.pacote-hero .pacotehero-img {
-  height: 620px;
-  background: url("../img/vulcao-desktop.png") ;
-  background-size: cover;
-}
-
-    .pacote-hero .hero-content {
-        width: 700px;
-    }
-
-    .herofoot .herofoot2-img {
-  height: 620px;
-  background: url("../img/hero3.desk.png") no-repeat center;
-  background-size: cover;
-}
-  
-
-}
-
+/* ================= MEDIA 1440px ================= */
 
 @media screen and (min-width: 1440px) {
-
-     .hero-content{
+  .hero-content {
     margin-right: 600px;
-   }
-
-
-  
+  }
 }
