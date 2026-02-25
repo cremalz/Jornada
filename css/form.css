@@ -1,0 +1,186 @@
+/* ================= HERO CONTATO ================= */
+
+.contato-hero {
+  position: relative;
+  width: 100%;
+}
+
+.contatohero-img {
+  height: 400px;
+  width: 100%;
+  background: url("../img/contato-mobile.png") no-repeat center;
+  background-size: cover;
+}
+
+.contato-hero .hero-content {
+  position: absolute;
+  top: 50%;
+  left: 24px;
+  right: 24px;
+  transform: translateY(-50%);
+  color: var(--text-secondary-color);
+}
+
+.contato-hero .hero-content h1 {
+  font-weight: var(--title-weight);
+}
+
+.contato-hero .hero-content hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--button-secondary-color);
+  margin: 16px 0 32px;
+  border: none;
+}
+
+.contato-hero .hero-content p {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  line-height: 32px;
+}
+
+
+/* ================= SEÇÃO CONTATO ================= */
+
+.section-title {
+  text-align: center;
+  margin: 80px 24px 24px;
+}
+
+.section-title hr {
+  width: 120px;
+  height: 4px;
+  margin: 16px auto;
+  background-color: var(--button-secondary-color);
+  border: none;
+}
+
+.section-title .sub2 {
+  font-weight: var(--title-weight);
+}
+
+.section-title + p {
+  max-width: 800px;
+  margin: 0 auto 48px;
+  padding: 0 24px;
+  text-align: center;
+  line-height: 28px;
+}
+
+
+/* ================= FORMULÁRIO ================= */
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto 120px;
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group label {
+  font-weight: var(--title-weight);
+  color: var(--text-primary-color);
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 14px 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  font-family: inherit;
+  transition: 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--button-secondary-color);
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.05);
+}
+
+.form-group textarea {
+  resize: none;
+}
+
+.contact-form button {
+  padding: 14px;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--button-secondary-color);
+  color: white;
+  font-weight: var(--title-weight);
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.contact-form button:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+
+/* ================= HERO FOOTER ================= */
+
+.herofoot3-img {
+  height: 400px;
+  width: 100%;
+  background: url("../img/contato-footermobile.png") no-repeat center;
+  background-size: cover;
+}
+
+
+/* ================= RESPONSIVO ================= */
+
+@media screen and (min-width: 768px) {
+
+  .contatohero-img {
+    height: 620px;
+    background: url("../img/contato-tablet.png") no-repeat center;
+    background-size: cover;
+  }
+
+  .contact-form {
+    margin-bottom: 160px;
+  }
+
+  .herofoot3-img {
+    height: 400px;
+    background: url("../img/contato-footertab.png") no-repeat center;
+    background-size: cover;
+  }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+  .contatohero-img {
+    height: 620px;
+    background: url("../img/contato-desktop.png") no-repeat center;
+    background-size: cover;
+  }
+
+  .contato-hero .hero-content {
+    margin-right: 400px;
+  }
+
+  .contact-form {
+    max-width: 700px;
+  }
+
+  .herofoot3-img {
+    height: 620px;
+    background: url("../img/contato-footerdesktop.png") no-repeat center;
+    background-size: cover;
+  }
+
+}
